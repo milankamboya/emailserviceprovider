@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /emailservice
+spring:
+  profiles:
+    active:
+      - gmail
+      - sendgrid
+#      - mailgun
+#      - sparkpost
+#      - ses
